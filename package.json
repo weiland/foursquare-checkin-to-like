@@ -1,0 +1,34 @@
+{
+  "name": "foursquare-checkin-to-like",
+  "version": "0.0.1",
+  "description": "Likes a venue when i checkin with a 😍  comment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "babel-node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiland/foursquare-checkin-to-like.git"
+  },
+  "keywords": [
+    "foursquare",
+    "swarm",
+    "checkin",
+    "location"
+  ],
+  "author": "Pascal Weiland <pasweiland@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weiland/foursquare-checkin-to-like/issues"
+  },
+  "homepage": "https://github.com/weiland/foursquare-checkin-to-like#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.22"
+  },
+  "dependencies": {
+    "foursquare": "0.0.1",
+    "got": "^4.1.1"
+  }
+}
